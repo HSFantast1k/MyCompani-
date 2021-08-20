@@ -11,6 +11,10 @@ li {
     list-style: none;
 }
 
+.skinny_text  {
+    font-weight: 400;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -39,7 +43,7 @@ nav {
 .topnav a {
     color: #fff;
     text-align: center;
-    padding: 12px 16px;
+    padding: 10px 16px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -247,4 +251,77 @@ main .main_about {
     padding-top: 25px;
 }
 
+.main_clients {
+    background: black;
+    text-align: center;
+    padding: 100px 0px 165px 0px;
+    color: white;
+}
 
+.main_clients h1 {
+    padding-bottom: 30px;
+}
+
+.main_clients .brands_list {
+    padding-top: 25px;
+}
+
+.main_clients  .skinny_text{
+    font-weight: 400;
+}
+
+.brands_list li {
+    display: inline;
+    margin-right: 35px;
+
+}
+
+.main_portfolio {
+    background: white;
+    text-align: center;
+    padding: 100px 0px 165px 0px;
+    color: black;
+}
+
+.main_portfolio h1 {
+    padding-bottom: 30px;
+}
+
+
+
+.main_portfolio p {
+    color: #787878;
+    margin: 0px 185px 155px 185px;
+}
+
+.main_portfolio .portf_imegs img {
+    padding: 30px 30px 30px 30px;
+}
+
+.main_testimonials {
+    background-color: black;
+    text-align: center;
+    padding:  100px 0px 165px 0px;
+    color:white;
+}
+
+.main_testimonials h1 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.main_testimonials .testimonials_text {
+    font-size: 16px;
+    color: ;
+    font-weight: bold;
+    padding: 0px 285px 50px 285px;
+}
+
+.main_testimonials .author_testimonials {
+    font-size: 20px;
+    color: #6d6d6d;
+}
+
+.main_testimonials .author_testimonials .author {
+    color: #b2b2b2;
+}
