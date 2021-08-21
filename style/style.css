@@ -312,7 +312,7 @@ main .main_about {
 
 .main_testimonials .testimonials_text {
     font-size: 16px;
-    color: ;
+    color: #fff;
     font-weight: bold;
     padding: 0px 285px 50px 285px;
 }
@@ -324,4 +324,78 @@ main .main_about {
 
 .main_testimonials .author_testimonials .author {
     color: #b2b2b2;
+}
+
+.main_contact {
+    background-color: white;
+    text-align: center;
+    padding: 100px 0px 165px 0px;
+}
+
+.main_contact h1{
+    padding-bottom: 30px;
+}
+
+.main_contact .contact_text {
+    padding: 0px 380px;
+    color: #6c6c6c;
+    margin-bottom: 60px;
+}
+
+.main_contact .red_text {
+    color: red;
+}
+.main_contact p{
+    text-align: center;
+    color: #6c6c6c;
+}   
+
+.main_contact .input {
+    display: flex;
+}
+
+.input .input_name{
+    padding-left: 28.5%;
+    height: 70px;
+}
+
+.input .input_email{
+    padding-left: 90px;
+    height: 70px;
+}
+
+.input .input_name_email{
+    width: 360px;
+    height: 40px;
+}
+
+.input_message {
+    text-align: center;
+    height: 160px;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+.input .send_button {
+    color: #fcac45;
+}
+
+.send_button {
+    font-size: 16px;
+    width: 165px;
+    height: 30px;
+    color: white;
+    background: #fcac45;
+}
+
+.main_footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    height: 60px;
+}
+
+.main_footer img {
+    margin: 0px 5px;
 }
